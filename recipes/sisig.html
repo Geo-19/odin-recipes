@@ -5,74 +5,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sisig Recipe</title>
 </head>
-<body>
-    <h1>Sisig</h1>
+    <body>
+        <h1>Sisig</h1>
+            
+
+        <img src="../images/sisig.jpg" alt="Filipino sisig served on a plate" width="400">
         
+        <h2>Description</h2>
+        <table border="1">
+            <tr>
+                <th>Servings</th>
+                <th>Preparation Time</th>
+                <th>Cooking Time</th>
+            </tr>
+            <tr>
+                <td>4 people</td>
+                <td>20 minutes</td>
+                <td>45 minutes</td>
+            </tr>
+        </table>
 
-    <img src="../images/sisig.jpg" alt="Filipino sisig served on a plate" width="400">
-    <table border="1">
+        <p>Sisig is a popular Filipino dish made with chopped pork, onions, and seasonings. It is known for its savory, crispy, and flavorful taste.</p>
+
+        <h2>Ingredients</h2>
+        <table border="1">
         <tr>
-            <th>Servings</th>
-            <th>Preparation Time</th>
-            <th>Cooking Time</th>
+            <th>Ingredient</th>
+            <th>Quantity</th>
         </tr>
         <tr>
-            <td>4 people</td>
-            <td>20 minutes</td>
-            <td>45 minutes</td>
+            <td>Pork Belly</td>
+            <td>1 & 1/2 lbss </td>
         </tr>
-    </table>
-    <h2>Description</h2>
-    <p>Sisig is a popular Filipino dish made with chopped pork, onions, and seasonings. It is known for its savory, crispy, and flavorful taste.</p>
+        <tr>
+            <td>Chopped Onions</td>
+            <td>2 pieces</td>
+        </tr>
+        <tr>
+            <td>Thai Chili Pepper</td>
+            <td>4 peices</td>
+        </tr>
+        <tr>
+            <td>Long Green Pepper</td>
+            <td>2 pieces</td>
+        </tr>
+        <tr>
+            <td>Mayonnaise</td>
+            <td>1/4 tablespoons</td>
+        </tr>
+        <tr>
+            <td>Knorr SavorRich Pork</td>
+            <td>1 sachet</td>
+        </tr>
+        <tr>
+            <td>Ground blackpepper</td>
+            <td>1/2 teaspoon</td>
+        </tr>
+        <tr>
+            <td>Margarine</td>
+            <td>1/4 cup</td>
+        </tr>
+        </table>
 
-    <h2>Ingredients</h2>
-    <table border="1">
-    <tr>
-        <th>Ingredient</th>
-        <th>Quantity</th>
-    </tr>
-    <tr>
-        <td>Pork</td>
-        <td>500 g</td>
-    </tr>
-    <tr>
-        <td>Onion</td>
-        <td>2 pieces</td>
-    </tr>
-    <tr>
-        <td>Garlic</td>
-        <td>3 cloves</td>
-    </tr>
-    <tr>
-        <td>Chili</td>
-        <td>2 pieces</td>
-    </tr>
-    <tr>
-        <td>Mayonnaise</td>
-        <td>2 tablespoons</td>
-    </tr>
-    <tr>
-        <td>Calamansi juice</td>
-        <td>2 tablespoons</td>
-    </tr>
-    <tr>
-        <td>Salt and pepper</td>
-        <td>To taste</td>
-    </tr>
-</table>
+        <h2>Steps</h2>
+            <ol>
+                <li>Heat oil in a deep cooking pot or deep fryer. Fry the boiled pork belly until golden brown and crispy.</li>
+                <li>chop the crispy pork belly into small pieces.</li>
+                <li>Heat half the margarine in a pan and saute half the onion until soft.</li>
+                <li>Add chopped pork and saute for 30 seconds.</li>
+                <li>Add knorr SavorRich, Stir and the nadd chille pepers and season with ground black pepper.</li>
+                <li>Cook for 1 minute.</li>
+                <li>Add the mayonaisse, Stir and add the remaining onion and set it aside.</li>
+                <li>Heat a metal plate (sizzling plate) on a stovetop and melt the remaining margarine.</li>
+                <li>Transfer the crispy pork sisig into the metal plate.</li>
+                <li>Let it star for 30 seconds.</li>
+                <li>And lastly serve with warm rice and your favorite beverage></li>
+            </ol>
+        <section>
+            <h2>Sisig Cooking Video</h2>
+            <video controls width="500">
+                <source src="../videos/sisig.mp4" type="video/mp4">
+                    
+            </video>
+        </section>
+        <section>
 
-    <h2>Steps</h2>
-    <ol>
-        <li>Cook the pork until tender.</li>
-        <li>Chop the pork into small pieces.</li>
-        <li>Heat a pan and cook the chopped pork until crispy.</li>
-        <li>Add the garlic and onion.</li>
-        <li>Mix and cook until the onion becomes soft.</li>
-        <li>Add calamansi juice, salt, pepper, and chili peppers.</li>
-        <li>Add mayonnaise and mix well.</li>
-        <li>Serve hot.</li>
-    </ol>
+            <h2>Recipe Feedback</h2>
 
-    <a href="../index.html">Back to Home</a>
-</body>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div>
+                    <label for="rating">Rating:</label>
+                    <select id="rating" name="rating">
+                        <option value="5">5 - Excellent</option>
+                        <option value="4">4 - Very Good</option>
+                        <option value="3">3 - Good</option>
+                        <option value="2">2 - Fair</option>
+                        <option value="1">1 - Poor</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="feedback">Your Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                </div>
+
+                <button type="submit">Submit Feedback</button>
+            </form>
+        </section>
+            <a href="../index.html">Back to Home</a>
+    </body>
 </html>
